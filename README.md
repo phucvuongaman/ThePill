@@ -23,7 +23,6 @@ Inspired by games like "The Exit 8" and "I'm on Observation Duty", players are t
 - **Event System (Observer Pattern):** Used a centralized `EventManager` to decouple systems. Managers and UI components communicate via events (e.g., `OnDayStart`, `OnPlayerCaught`) without hard dependencies.
 - **Finite State Machine (FSM):** Implemented custom generic state machines to handle isolated logic:
   - `PlayerStateMachine`: Manages movement and interactions.
-  - `SanityStateMachine`: Controls sanity degradation and triggers visual/audio effects.
   - `AnomalyEnemyStateMachine`: Drives NavMesh-based AI behaviors.
 - **Data-Driven Design (Scriptable Objects):** Utilized for data containers and event pooling (`PhasePoolSO`, `AnomalyEventSO`) to easily configure, balance, and randomize daily anomalies without hardcoding.
 - **Modular Interaction System:** A raycast-based system using interfaces (`IInteractable`, `IPressInteractable`) to standardize how the player interacts with the environment, making it scalable for new mechanics.
