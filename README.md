@@ -15,7 +15,7 @@ Inspired by games like "The Exit 8" and "I'm on Observation Duty", players are t
 
 ## Technical Details
 
-- **Engine:** Unity 2022.3 LTS
+- **Engine:** Unity 6000.0.28f1
 - **Language:** C#
 - **Version Control Note:** The game was developed daily using **Unity Version Control (Plastic SCM)**. This GitHub repo is a consolidated snapshot for review.
 
